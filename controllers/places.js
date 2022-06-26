@@ -2,7 +2,12 @@ const router = require('express').Router()
 const React = require('react')
 const express = require('express')
  
- 
+//new place
+
+router.get('/new', (req, res) => {
+    res.render('places/new')
+  })
+  
 router.get('/', (req, res) => {
     let places = [{
         name: 'H-Thai-ML',
