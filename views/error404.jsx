@@ -7,6 +7,9 @@ function error404 () {
           <main>
               <h1>404: PAGE NOT FOUND</h1>
               <p>Oops, sorry, we can't find this page you have a typo!</p>
+              <div>
+                 <img src="/images/beach.jpg" alt="beach"></img>
+              </div>
           </main>
       </Def>
     )
