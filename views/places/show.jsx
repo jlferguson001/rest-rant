@@ -13,8 +13,15 @@ function show (data) {
                   Located in {data.place.city}, {data.place.state}
                 </h3>
             </div>
-              <div className="col-sm-6"> </div>
-                <h1>{ data.place.name }</h1>
+              <div className="col-sm-6"> 
+                    
+                    <h3>
+                    {data.place.showEstablished()}
+                    </h3> 
+                    <h4>
+                        Serving {data.place.cuisines}
+                    </h4>
+                </div>
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
             Edit
             </a>     
