@@ -96,7 +96,7 @@ function show (data) {
 
               <div className='form-group'>
                 <label htmlFor='rant'>Rant</label>
-                <input  id='rant' name='rant' type='checkbox' defaultChecked/>
+                <input  id='rant' name='rant' type='checkbox'/>
               </div>
 
               <input className='btn btn-primary' type='submit' value='Add Comment' />
